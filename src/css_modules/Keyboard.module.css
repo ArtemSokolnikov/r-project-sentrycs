@@ -1,0 +1,15 @@
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+.row {
+  display: flex;
+  gap: 6px;
+}
+.thirdRow {
+  width: 100%;
+  justify-content: space-between;
+}

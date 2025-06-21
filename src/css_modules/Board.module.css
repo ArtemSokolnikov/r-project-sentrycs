@@ -1,0 +1,23 @@
+.board {
+  display: flex;
+  gap: 7px;
+}
+
+.cell {
+  width: 55px;
+  height: 55px;
+  border: 2px solid #cccccc;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff
+}
+
+.green {
+  border-color: rgb(0, 128, 0);
+}
+
+.red {
+  border-color: rgb(255, 0, 0);
+}
