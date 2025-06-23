@@ -1,7 +1,5 @@
 import React, { useEffect } from 'react';
-import { MyActionListener } from '../../utils/MyActionListener';
-
-const actionListener = new MyActionListener();
+import { actionListener } from '../../utils/actionListenerInstance';
 
 const ActionItem: React.FC = () => {
   useEffect(() => {

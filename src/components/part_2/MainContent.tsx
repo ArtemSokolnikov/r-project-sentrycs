@@ -1,11 +1,10 @@
 import { useEffect, useState } from 'react';
 import words from '../../assets/wordle-bank.txt?raw';
 import style from '../../css_modules/MainContent.module.css';
-import { MyActionListener } from '../../utils/MyActionListener';
 import Board from './Board';
 import Keyboard from './Keyboard';
+import { actionListener } from '../../utils/actionListenerInstance';
 
-const actionListener = new MyActionListener();
 const MAX_LETTERS = 5;
 
 const MainContent = () => {
